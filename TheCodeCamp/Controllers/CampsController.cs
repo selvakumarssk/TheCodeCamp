@@ -136,7 +136,6 @@ namespace TheCodeCamp.Controllers
 
                 return InternalServerError(ex);
             }
-            return BadRequest();
         }
 
         [Route("{moniker}")]
